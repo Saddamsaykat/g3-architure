@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0%;
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+/* header navigation */
+.header {
+    padding: 50px 240px;
+    background-color: #FF900E1A;
+  
+}
+
+ul a{
+    text-decoration: none;
+    color: #424242;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+/* second banner nagavation  */
+.all-banner{
+    max-width: 1440px;
+}
+.welcome-title-section{
+
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.welcome-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+
+.short-note-second {
+    color: #727272;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 26px;
+}
+.btn-primary{
+
+color: white;
+ font-size: 20px;
+ font-weight: 600;
+ border: 0;
+ border-radius: 10px;
+ background-color: #FF900E;
+ padding: 1rem;
+ cursor: pointer;
+}
+.banner-image{
+    width: 100%;
+}
+
+/* Section One */
+
+.section-one{
+    display: flex;
+    
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
